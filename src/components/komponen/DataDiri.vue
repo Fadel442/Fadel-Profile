@@ -27,7 +27,6 @@ export default {
 .beetwen {
     display: flex;
     margin: 100px 0;
-
 }
 
 .leftM {
