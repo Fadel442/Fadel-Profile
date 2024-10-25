@@ -66,19 +66,21 @@
     filter: drop-shadow(10px 5px 10px rgba(55, 224, 13, 0.3));
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .between {
         flex-direction: column;
         align-items: center;
         margin: 0 0;
     }
-    .titles h1 {
-    font-size: 25px;
-}
 
-.titles p {
-    font-size: 15px;
-}
+    .titles h1 {
+        font-size: 25px;
+    }
+
+    .titles p {
+        font-size: 15px;
+    }
+
     .leftM {
         padding: 0;
     }
@@ -88,17 +90,20 @@
     }
 
     .gambarF {
-        display: none;
+        width: 300px;
+        height: 450px;
+        border-radius: 60px;
+        margin-bottom: 50px;
     }
 }
 
 @media (max-width: 400px) {
     .titles h1 {
-    font-size: 20px;
-}
+        font-size: 20px;
+    }
 
-.titles p {
-    font-size: 10px;
-}
+    .titles p {
+        font-size: 10px;
+    }
 }
 </style>

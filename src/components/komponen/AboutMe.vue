@@ -60,7 +60,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(5, 206, 65, 0.4);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .between {
         flex-direction: column;
         align-items: center;
@@ -71,9 +71,11 @@
         margin: 50px 20px;
         text-align: center;
     }
+
     .titles h1 {
         font-size: 25px;
     }
+
     .titles p {
         font-size: 15px;
     }
@@ -95,7 +97,9 @@
     }
 
     .gambarF {
-        display: none;
+        width: 300px;
+        height: 450px;
+        border-radius: 60px;
     }
 }
 
