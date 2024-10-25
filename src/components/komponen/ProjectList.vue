@@ -105,5 +105,8 @@
     .titles p {
         font-size: 10px;
     }
+    .gambarF {
+        display: none;
+    }
 }
 </style>
