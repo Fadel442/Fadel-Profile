@@ -30,6 +30,10 @@
     font-size: 30px;
 }
 
+.titles p {
+    font-size: 20px;
+}
+
 .between {
     display: flex;
     margin: 100px 0;
@@ -59,15 +63,19 @@
 @media (max-width: 768px) {
     .between {
         flex-direction: column;
-        /* Stack elements vertically */
         align-items: center;
         margin: 0;
-        /* Center align on mobile */
     }
 
     .titles {
         margin: 50px 20px;
         text-align: center;
+    }
+    .titles h1 {
+        font-size: 25px;
+    }
+    .titles p {
+        font-size: 15px;
     }
 
     .leftM {
@@ -88,6 +96,22 @@
 
     .gambarF {
         display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .between {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .titles h1 {
+        font-size: 20px;
+    }
+
+    .titles p {
+        font-size: 10px;
     }
 }
 </style>

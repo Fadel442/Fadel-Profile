@@ -12,7 +12,7 @@
 </template>
 
 <script>
-export default{
+export default {
     data() {
         return {
             nama: 'Fadel Muhammad',
@@ -26,21 +26,25 @@ export default{
 <style scoped>
 .beetwen {
     display: flex;
-    margin: 100px  0;
+    margin: 100px 0;
 
 }
+
 .leftM {
     width: 100%;
     padding: 70px 0;
 
 }
-.leftM h1{
+
+.leftM h1 {
     font-size: 50px;
     font-weight: bold;
 }
+
 .leftM h4 {
     font-size: 30px;
 }
+
 .rightM {
     width: 100%;
     justify-content: center;
@@ -48,6 +52,7 @@ export default{
     text-align: center;
     padding: 0 0 0 100px;
 }
+
 .huba {
     width: 150px;
     font-weight: bolder;
@@ -57,8 +62,9 @@ export default{
     background-color: green;
     border-radius: 30px;
 }
+
 .gambarF {
-    width:350px;
+    width: 350px;
     height: 400px;
     background-color: gray;
     border-radius: 100px;
@@ -67,15 +73,51 @@ export default{
 
 @media (max-width: 768px) {
     .beetwen {
-        flex-direction: column; /* Stack elements vertically */
-        text-align: center; /* Center text for better mobile view */
+        flex-direction: column;
+        /* Stack elements vertically */
+        text-align: center;
+        /* Center text for better mobile view */
         margin: 0;
     }
+
     .rightM {
-        padding: 0; /* Remove padding on mobile */
+        padding: 0;
+        /* Remove padding on mobile */
     }
+
     .gambarF {
-        align-items: center; /* Add some space above the image */
+        align-items: center;
+        /* Add some space above the image */
+    }
+}
+
+@media (max-width: 400px) {
+    .beetwen {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .leftM h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .leftM h4 {
+        font-size: 20px;
+    }
+
+    .rightM {
+        padding: 0;
+        /* Remove padding on mobile */
+    }
+
+    .gambarF {
+        align-items: center;
+        width: 300px;
+        height: 350px;
+        border-radius: 70px;
+        /* Add some space above the image */
     }
 }
 </style>

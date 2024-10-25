@@ -82,4 +82,24 @@ export default {
         /* display: none; */
     }
 }
+
+@media (max-width: 400px)
+{
+    .container {
+        align-items: center;
+    }
+    .card {
+        width: 100px;
+        height: 100px;
+    }
+    .card-image {
+        width: 25px;
+        height: 25px;
+        margin: 0;
+    }
+    h2 {
+        font-size: 10px;
+        /* display: none; */
+    }
+}
 </style>

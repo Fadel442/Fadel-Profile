@@ -27,6 +27,10 @@
     font-size: 30px;
 }
 
+.titles p {
+    font-size: 20px;
+}
+
 .titles button {
     width: 150px;
     font-weight: bolder;
@@ -65,19 +69,36 @@
 @media (max-width: 768px) {
     .between {
         flex-direction: column;
-        /* Stack elements vertically */
         align-items: center;
         margin: 0 0;
-        /* Center align on mobile */
     }
+    .titles h1 {
+    font-size: 25px;
+}
+
+.titles p {
+    font-size: 15px;
+}
     .leftM {
         padding: 0;
     }
+
     .titles {
         text-align: center;
     }
+
     .gambarF {
         display: none;
     }
+}
+
+@media (max-width: 400px) {
+    .titles h1 {
+    font-size: 20px;
+}
+
+.titles p {
+    font-size: 10px;
+}
 }
 </style>

@@ -37,4 +37,18 @@ h1 {
     font-size: 20px; 
     font-weight: bold;
 }
+
+@media (max-width: 400px)
+{
+ .skill-sec {
+  margin-bottom: 15px;
+ }   
+ .blok1, .blok2 {
+  height: 3px;
+  margin: 0 20px;
+ }
+ h1 {
+  font-size: 15px;
+ }
+}
 </style>

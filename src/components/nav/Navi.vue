@@ -56,7 +56,19 @@ img {
   }
 
   nav {
-    margin-bottom: 20px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    flex-direction: row; /* Stack items vertically on mobile */
+    padding: 20px 0;
+    align-items: center; /* Center items */
+  }
+
+  nav {
+    margin-bottom: 0;
   }
 }
 </style>
